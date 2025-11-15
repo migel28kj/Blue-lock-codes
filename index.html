@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Lock Rivals - Codes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Blue Lock Rivals Codes</h1>
+            <p>Codes de récompenses pour Roblox Blue Lock Rivals</p>
+        </div>
+
+        <!-- Section Admin (cachée pour tout le monde sauf vous) -->
+        <div class="admin-section" id="adminSection">
+            <h2>🔧 Panel Administrateur</h2>
+            <div class="admin-info">
+                ✅ Vous êtes connecté en tant qu'administrateur
+            </div>
+            <div class="code-input">
+                <input type="text" id="newCode" placeholder="Entrez un nouveau code (ex: BLUE100K)" maxlength="20">
+                <button onclick="addCode()">Ajouter le Code</button>
+            </div>
+        </div>
+
+        <!-- Liste des Codes -->
+        <div class="codes-list">
+            <h2>📜 Codes Actifs</h2>
+            <div id="codesContainer">
+                <!-- Les codes seront affichés ici -->
+            </div>
+        </div>
+
+        <!-- Messages de statut -->
+        <div id="statusMessage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
